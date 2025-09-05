@@ -13,6 +13,23 @@ A modern command-line interface for Sesame Time, built with Node.js and React In
 
 ## 🚀 Installation
 
+### Method 1: Global Installation (Recommended)
+
+1. Clone the repository:
+```bash
+git clone <repository-url>
+cd sesame-cli
+```
+
+2. Install globally:
+```bash
+npm install -g .
+```
+
+This will install all dependencies and make the `sesame-cli` command available globally in your terminal.
+
+### Method 2: Local Development
+
 1. Clone the repository:
 ```bash
 git clone <repository-url>
@@ -24,19 +41,23 @@ cd sesame-cli
 npm install
 ```
 
-3. Make the script executable (optional):
+3. Run with Node.js:
 ```bash
-chmod +x index.js
+node index.js
 ```
 
 ## 💻 Usage
 
 ### Starting the Application
 
+**If installed globally:**
+```bash
+sesame-cli
+```
+
+**If running locally:**
 ```bash
 node index.js
-# or if made executable
-./index.js
 ```
 
 ### First Time Setup
@@ -175,15 +196,6 @@ If you encounter any issues or have questions:
 2. Verify your internet connection
 3. Ensure your Sesame Time credentials are correct
 4. Try logging out and logging back in
-
-## 🎯 Future Enhancements
-
-- [ ] Multiple account support
-- [ ] Export time tracking data
-- [ ] Custom project shortcuts
-- [ ] Notification system
-- [ ] Dark/light theme options
-- [ ] Weekly/monthly time summaries
 
 ---
 

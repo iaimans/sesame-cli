@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "bin": {
-    "sesame": "./index.js"
+    "sesame-cli": "./index.js"
   },
   "scripts": {
     "start": "node index.js"
