@@ -2,13 +2,13 @@
   "name": "sesame-cli",
   "version": "1.0.0",
   "description": "CLI tool for Sesame Time check-in",
-  "main": "index.js",
+  "main": "src/main.js",
   "type": "module",
   "bin": {
-    "sesame-cli": "./index.js"
+    "sesame-cli": "./src/main.js"
   },
   "scripts": {
-    "start": "node index.js"
+    "start": "node src/main.js"
   },
   "dependencies": {
     "axios": "^1.6.0",
